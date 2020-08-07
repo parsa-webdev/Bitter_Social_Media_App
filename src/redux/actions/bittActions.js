@@ -8,9 +8,6 @@ import {
   SET_LIKES,
   ADD_LIKES,
   LIKE_BITTS,
-  UNLIKE_BITTS,
-  DELETE_BITTS,
-  DISLIKE_BITTS,
   DELETE_LIKES,
   ADD_COMMENTS,
   SET_COMMENTS,
@@ -58,6 +55,7 @@ export const getAllBitts = () => async (dispatch, getState) => {
       type: SET_COMMENTS,
       payload: comments,
     });
+
     //GET BITTS
 
     const bittsSnapshot = await db
