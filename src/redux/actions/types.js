@@ -1,0 +1,30 @@
+// Auth Types
+export const VERIFY_USER = "VERIFY_USER";
+export const VERIFYING = "VERIFYING";
+export const AUTHENTICATING = "AUTHENTICATING";
+export const AUTHENTICATED = "AUTHENTICATED";
+export const UNAUTHENTICATED = "UNAUTHENTICATED";
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const SET_USER_INFO = "SET_USER_INFO";
+// Bitt Types
+export const BITTS_LOADING = "BITTS_LOADING";
+export const BITT_SUCCESS = "BITT_SUCCESS";
+export const BITT_ERROR = "BITT_ERROR";
+export const SET_BITTS = "SET_BITTS";
+export const ADD_BITTS = "ADD_BITTS";
+export const DEL_BITTS = "DEL_BITTS";
+export const SET_LIKES = "SET_LIKES";
+export const ADD_LIKES = "ADD_LIKES";
+export const DELETE_LIKES = "DELETE_LIKES";
+export const LIKE_BITTS = "LIKE_BITTS";
+export const UNLIKE_BITTS = "UNLIKE_BITTS";
+export const DISLIKE_BITTS = "DISLIKE_BITTS";
+export const SET_COMMENTS = "SET_COMMENTS";
+export const ADD_COMMENTS = "ADD_COMMENTS";
+export const DELETE_COMMENTS = "DELETE_COMMENTS";
+export const REMOVE_COMMENTS = "REMOVE_COMMENTS";
