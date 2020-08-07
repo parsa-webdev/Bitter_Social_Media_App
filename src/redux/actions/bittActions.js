@@ -21,7 +21,6 @@ import firebase from "firebase";
 export const getAllBitts = () => async (dispatch, getState) => {
   try {
     dispatch({ type: BITTS_LOADING });
-
     if (getState().auth.isLoggedIn) {
       await auth.onAuthStateChanged(async (user) => {
         if (user) {
@@ -43,7 +42,7 @@ export const getAllBitts = () => async (dispatch, getState) => {
         }
       });
     }
-
+    //
     let comments = [];
 
     const commentsSnapshot = await db.collection("comments").get();
