@@ -13,6 +13,7 @@ import {
   SET_COMMENTS,
   DELETE_COMMENTS,
   REMOVE_COMMENTS,
+  UNLIKE_BITTS,
 } from "./types";
 import { auth, db } from "../../services/firebase";
 import firebase from "firebase";
