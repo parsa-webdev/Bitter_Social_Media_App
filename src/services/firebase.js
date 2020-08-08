@@ -11,7 +11,7 @@ const firebaseConfig = {
   messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
   appId: process.env.REACT_APP_APPID,
 };
-
+//
 // {
 //   apiKey: "AIzaSyA-8selVEAoBrhxuJzWwBAvvh30VdKJNTA",
 //   authDomain: "social-media-b2678.firebaseapp.com",
